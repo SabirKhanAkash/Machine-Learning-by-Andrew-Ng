@@ -1,1 +1,1 @@
-A = [1 2; 3 4; 5 6]size(A)sz = size(A)size(sz)size(A,1)length(A)length([2; 3; 4; 5; 6])pwdls
+A = [1 2; 3 4; 5 6]size(A)sz = size(A)size(sz)size(A,1)length(A)length([2; 3; 4; 5; 6])pwdlsload('credit_data.dat')
