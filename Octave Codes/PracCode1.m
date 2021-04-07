@@ -1,1 +1,1 @@
-A = [1 2; 3 4; 5 6]size(A)sz = size(A)size(sz)size(A,1)length(A)length([2; 3; 4; 5; 6])pwdlswhov = [23;23;43;56;76;87;45;767;98;45;45]save hello.mat vsave hello.txt v -asciipwd lsfile = csvread('credit_data.csv') 
+A = [1 2; 3 4; 5 6]size(A)sz = size(A)size(sz)size(A,1)length(A)length([2; 3; 4; 5; 6])pwdlswhov = [23;23;43;56;76;87;45;767;98;45;45]save hello.mat vsave hello.txt v -asciipwd lsfile = csvread('credit_data.csv') A = [1 2; 3 4 ; 5 6]A(:,2) = [12; 15; 20]A(:,3) = [3; 6; 9]
