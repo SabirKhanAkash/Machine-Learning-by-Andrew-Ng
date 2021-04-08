@@ -1,4 +1,4 @@
-function [jVal, gradient] = costFunction(theta)
+function [jVal, gradient] = GradientDescent(theta)
   
 jVal = (theta(1) - 5)^2 + (theta(2) - 5)^2;
   
