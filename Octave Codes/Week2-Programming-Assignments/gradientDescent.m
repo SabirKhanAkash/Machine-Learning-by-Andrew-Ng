@@ -7,18 +7,13 @@ for iter = 1:num_iters
 
     % ====================== YOUR CODE HERE ======================
 
-
-
-
-
-    
-    % ============================================================   
-    
     predictions = X*theta ;
     sqrErrors = (predictions - y);
 
     J = 1/(m) * X' * sqrErrors;
     theta = theta - alpha*J;
+    
+    % ============================================================   
 
 end
 
