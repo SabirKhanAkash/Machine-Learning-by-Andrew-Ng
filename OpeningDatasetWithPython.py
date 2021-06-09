@@ -7,7 +7,7 @@ from nibabel import nifti1
 from nibabel.viewers import OrthoSlicer3D
 from nibabel.testing import data_path
 
-example_filename  = 'DATASET/MICCAI_BraTS_2019_Data_Training/HGG/BraTS19_2013_2_1/BraTS19_2013_2_1_flair.nii.gz'
+example_filename  = 'Dataset/BraTS19_2013_2_1_flair.nii.gz'
 
 img = nib.load(example_filename)
 imgShape = img.shape
